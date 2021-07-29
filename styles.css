@@ -57,6 +57,10 @@ a:hover, a:active, a:visited, a:link{
     color: black;
 }
 
+a:hover, a:active{
+    text-decoration: underline;
+}
+
 /*Left Area of Header*/
 
 .hl-section{
@@ -110,6 +114,7 @@ a:hover, a:active, a:visited, a:link{
     opacity: .55;
     padding-right: 15px;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 .hr-button{
@@ -127,6 +132,24 @@ a:hover, a:active, a:visited, a:link{
     -o-border-radius: 2px;
 }
 /*-----------------------Main Body Section----------------------*/
+
+main{
+    display: block;
+    margin: 0 auto;
+    min-width: 980px;
+}
+
+.main-logo{
+    border: 2px solid red;
+}
+
+.main-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+}
+
 
 
 /*-----------------------Footer Section-------------------------*/
