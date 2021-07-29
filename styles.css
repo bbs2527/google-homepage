@@ -1,52 +1,87 @@
 /*Google Icon section*/
+
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-}
-
-body{
-    font-size: small;
-    background: #fff;
-    color: #222;
-    font-family: Arial, sans-serif;
-    height: 100%;
-    margin: 0;
-}
-
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
 
 /*--------------------------Body Section------------------------*/
 
+html{
+    height: 100%;
+    margin: 0;
+    font-size: small;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #222;
+}
 
 /*--------------------------Header Section----------------------*/
 
 /*Main Header Area*/
 
+header{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:active, a:visited, a:link{
+    color: black;
+}
 
 /*Left Area of Header*/
 
+.hl-section{
+    border: 2px solid red;
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+.h1-section a{
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
 
 /*Right Area of Header*/
-
+.hr-section{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: flex-end;
+}
 
 /*-----------------------Main Body Section----------------------*/
 
