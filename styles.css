@@ -133,14 +133,11 @@ a:hover, a:active{
 }
 /*-----------------------Main Body Section----------------------*/
 
-main{
-    display: block;
-    margin: 0 auto;
-    min-width: 980px;
-}
+/*Logo Area*/
 
 .main-logo{
     border: 2px solid red;
+    padding-bottom: 20px;
 }
 
 .main-logo img{
@@ -150,6 +147,21 @@ main{
     padding-top: 130px;
 }
 
+/*Search Bar Area*/
 
+.sb-area{
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+/*Main Button Options*/
 
 /*-----------------------Footer Section-------------------------*/
