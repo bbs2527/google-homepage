@@ -83,6 +83,20 @@ a:hover, a:active, a:visited, a:link{
     justify-content: flex-end;
 }
 
+.hr-button{
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
 /*-----------------------Main Body Section----------------------*/
 
 
