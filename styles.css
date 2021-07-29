@@ -44,9 +44,9 @@ body{
 /*Main Header Area*/
 
 header{
-    border: 2px solid red;
     width: 100%;
     display: flex;
+    margin: 15px 0px;
 }
 
 a{
@@ -60,12 +60,11 @@ a:hover, a:active, a:visited, a:link{
 /*Left Area of Header*/
 
 .hl-section{
-    border: 2px solid red;
     position: absolute;
     margin: 7px 0 0 10px;
 }
 
-.h1-section a{
+.hl-section a{
     display: inline-block;
     padding-left: 15px;
     color: #000;
@@ -74,13 +73,43 @@ a:hover, a:active, a:visited, a:link{
 
 /*Right Area of Header*/
 .hr-section{
-    border: 2px solid red;
     display: flex;
     align-items: center;
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.hr-items-1{
+    padding-right: 15px;
+}
+
+.hr-items-1 a{
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.hr-items-2{
+    line-height: normal;
+    position: relative;
+    text-align: left;
+}
+
+.hr-items-2:first-child{
+    padding-left: 0;
+}
+
+.hr-items-2 a{
+    position: relative;
+    background-position: -132px -38px;
+    opacity: .55;
+    padding-right: 15px;
+    vertical-align: middle;
 }
 
 .hr-button{
