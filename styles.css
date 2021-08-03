@@ -218,3 +218,31 @@ a:hover, a:active{
     color: #222;    
 }
 /*-----------------------Footer Section-------------------------*/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+}
+
+footer a{
+    padding-left: 25px;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+    margin-right: 25px;
+}
+
+.fr-items a, .fl-items a{
+    color: #5F6368;
+}
