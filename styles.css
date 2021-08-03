@@ -184,4 +184,37 @@ a:hover, a:active{
 
 /*Main Button Options*/
 
+.button-options{
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-options button{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 35px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f2f2f2;
+}
+
+.button-options button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;    
+}
 /*-----------------------Footer Section-------------------------*/
