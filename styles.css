@@ -162,6 +162,10 @@ a:hover, a:active{
     justify-content: space-between;
 }
 
+.sb-area:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
 .sb-icon-1, .sb-icon-2{
     align-self: center;
 }
@@ -180,6 +184,7 @@ a:hover, a:active{
     height: 35px;
     border-width: 0px;
     border: none;
+    outline: none;
 }
 
 /*Main Button Options*/
